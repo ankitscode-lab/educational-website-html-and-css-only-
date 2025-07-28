@@ -1,0 +1,734 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+}
+body {
+    background-color: rgb(44, 42, 42);
+}
+
+.sec1 {
+    height: 100vh;
+    width: 100%;
+
+    object-fit: cover;
+    object-position: center;
+
+}
+
+.nav {
+    height: 100px;
+    width: 100%;
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: black; */
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/011/912/854/small/black-hexagonal-tire-pattern-background-industrial-geometric-polygonal-grid-textured-in-dark-brutal-monochrome-linear-minimalism-vector.jpg);
+
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    font-family: "Roboto Mono", monospace;
+    letter-spacing: 0px;
+    color: #d1d7e0;
+    word-spacing: -7px;
+
+
+}
+
+.nav img {
+    height: 70px;
+    width: 70px;
+}
+
+.nav .rightnav {
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+    padding-right: 10px;
+
+}
+
+.rightnav .menu {
+    display: none;
+}
+
+.content {
+    height: calc(100% - 100px);
+    width: 100%;
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/011/912/854/small/black-hexagonal-tire-pattern-background-industrial-geometric-polygonal-grid-textured-in-dark-brutal-monochrome-linear-minimalism-vector.jpg);
+    opacity: 5;
+    padding: 20px 30px;
+    display: flex;
+    gap: 20px;
+    color: #d1d7e0;
+}
+
+.content .l {
+    padding-left: 20px;
+    text-align: center;
+    font-size: 30px;
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+
+.content .r {
+    text-align: right;
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+    padding: 10px 10px;
+}
+
+.l h1 {
+    padding-bottom: 40px;
+    font-family: "Oswald", sans-serif;
+}
+
+.l span {
+    color: #802bb1;
+    /* background-color: #d1d7e0; */
+}
+
+.l h4 {
+    /* padding-bottom: 5px; */
+    text-align: center;
+    /* padding-left: 15px; */
+    font-size: 1.5vw;
+    font-family: sans-serif
+}
+
+.l h3 {
+    font-family: "Roboto Mono", monospace;
+
+}
+
+.r img {
+    height: 300px;
+    border-radius: 45%;
+
+}
+
+.r h2 {
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif;
+    font-size: 30px;
+    color: #802bb1;
+    padding-top: 20px;
+}
+
+.r h3 {
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif;
+
+}
+
+
+
+
+
+.content2 {
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/011/912/854/small/black-hexagonal-tire-pattern-background-industrial-geometric-polygonal-grid-textured-in-dark-brutal-monochrome-linear-minimalism-vector.jpg);
+
+}
+
+/* .about h2{
+    padding: 20px 30px;
+    font-size: 40px;
+    font-family: "Oswald", sans-serif;
+} */
+.about {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    /* gap: 30px; */
+    grid-template-areas:
+        "top ."
+        ". bottom";
+}
+
+.a {
+    color: #802bb1;
+    background-color: #d1d7e0;
+    height: 50vh;
+    width: 100%;
+    border: 2px solid black;
+    /* margin-bottom: 30px; */
+    grid-area: top;
+    align-self: start;
+    justify-self: start;
+    border-radius: 0px 34px 34px 0px;
+}
+
+.b {
+    background-color: #802bb1;
+    color: #d1d7e0;
+    height: 50vh;
+    width: 100%;
+    border: 2px solid black;
+    /* margin-top: 30px; */
+    grid-area: bottom;
+    align-self: end;
+    justify-self: end;
+    border-radius: 34px 0px 0px 34px;
+}
+
+
+
+.a h2 {
+    font-size: 40px;
+    padding: 20px 30px;
+    font-family: "Oswald", sans-serif
+}
+
+.a p {
+    font-size: 20px;
+    padding: 10px 30px;
+    font-family: "Roboto Mono", monospace;
+}
+
+.a h3 {
+    font-size: 20px;
+    padding: 10px 30px;
+    font-family: "Roboto Mono", monospace;
+}
+
+.b h2 {
+    font-size: 40px;
+    padding: 20px 30px;
+    font-family: "Oswald", sans-serif
+}
+
+.b p {
+    font-size: 20px;
+    padding: 10px 30px;
+    font-family: "Roboto Mono", monospace;
+}
+
+
+
+.content3 {
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/011/912/854/small/black-hexagonal-tire-pattern-background-industrial-geometric-polygonal-grid-textured-in-dark-brutal-monochrome-linear-minimalism-vector.jpg);
+
+
+}
+
+.fb {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+
+.lb {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+
+.fb .boxes1 {
+    height: 180px;
+    width: 200px;
+    border: 2px solid black;
+
+}
+
+.gal {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.content3 h2 {
+    text-align: center;
+
+}
+
+.lb .boxes2 {
+    height: 180px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 20px;
+
+}
+
+.boxes1 {
+    height: 180px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 20px;
+    /* transform: scale(1.2); */
+    transition: transform 0.5s ease-in;
+    /* Move transition here */
+}
+
+.boxes1:hover {
+    transform: scale(1.1);
+    /* Add a different scale for hover */
+}
+
+.boxes2 {
+    height: 180px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 20px;
+    /* transform: scale(1.2); */
+    transition: transform 0.5s ease-in;
+    /* Move transition here */
+}
+
+.boxes2:hover {
+    transform: scale(1.1);
+    ;
+    /* Add a different scale for hover */
+}
+
+.boxes1 img {
+    height: 176px;
+    width: 196px;
+    border-radius: 10px;
+}
+
+.logo h2 {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-family: "Oswald", sans-serif;
+    color: #d1d7e0;
+}
+
+.boxes2 img {
+    height: 176px;
+    width: 196px;
+    border-radius: 20px;
+}
+
+
+
+
+
+.content4 {
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/011/912/854/small/black-hexagonal-tire-pattern-background-industrial-geometric-polygonal-grid-textured-in-dark-brutal-monochrome-linear-minimalism-vector.jpg);
+
+}
+
+.content4 h1 {
+    padding: 12px 30px;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-size: 40px;
+    color: #d1d7e0;
+    text-decoration: underline;
+}
+
+
+
+.courses {
+    height: 85vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.firstcour {
+    height: 470px;
+    width: 400px;
+    border: none;
+
+    box-shadow: 2px 2px 9px 4px #928a8a;
+    background-color: rgba(255, 255, 255, 0.06);
+    backdrop-filter: blur(4px);
+    border-radius: 12px;
+}
+
+.secondcour {
+    height: 330px;
+    width: 700px;
+    border: none;
+
+    box-shadow: 2px 2px 9px 4px #928a8a;
+    background-color: rgba(255, 255, 255, 0.06);
+    backdrop-filter: blur(4px);
+    border-radius: 12px;
+}
+
+
+.firstcour h3 {
+    padding: 10px 20px;
+    font-family: "Oswald", sans-serif;
+    font-size: 25px;
+    text-decoration: underline;
+    color: #802bb1;
+}
+
+.h3 {
+    padding: 5px 20px;
+}
+
+.firstcour h4 {
+    padding: 10px 20px;
+    font-family: "Roboto Mono", monospace;
+    font-size: 15px;
+    color: #d1d7e0;
+}
+
+.secondcour h3 {
+    padding: 10px 20px;
+    font-family: "Oswald", sans-serif;
+    font-size: 25px;
+    text-decoration: underline;
+    color: #802bb1;
+}
+
+.secondcour h4 {
+    padding: 10px 20px;
+    font-family: "Roboto Mono", monospace;
+    font-size: 15px;
+    color: #d1d7e0;
+}
+
+
+
+
+
+.content5 {
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/011/912/854/small/black-hexagonal-tire-pattern-background-industrial-geometric-polygonal-grid-textured-in-dark-brutal-monochrome-linear-minimalism-vector.jpg);
+
+}
+
+.contact {
+
+    height: 85vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 2px solid black; */
+
+}
+
+.content5 h1 {
+    padding: 20px 30px;
+    font-size: 30px;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    color: #d1d7e0;
+}
+
+.leftc {
+    background-color: #802bb1;
+    height: 400px;
+    width: 400px;
+    /* border: 2px solid black; */
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(247, 244, 244, 0.1);
+    /* background-color: #fff; */
+    color: rgb(37, 21, 37);
+
+
+}
+
+.rightc {
+    height: 430px;
+    width: 400px;
+    /* border: 2px solid black;
+    border-radius: 20px; */
+    
+}
+
+
+
+i {
+    font-size: 30px;
+    /* padding: 20px 30px; */
+
+}
+
+.location {
+    padding: 20px 30px;
+}
+
+.location h2 {
+    font-size: 30px;
+    font-family: "Oswald", sans-serif
+}
+
+.location h4 {
+    font-size: 15px;
+    font-family: "Roboto Mono", monospace;
+    padding-left: 35px;
+}
+
+.email {
+    padding: 20px 30px;
+}
+
+.email h2 {
+    font-size: 30px;
+    font-family: "Oswald", sans-serif
+}
+
+.email h4 {
+    font-size: 15px;
+    font-family: "Roboto Mono", monospace;
+    padding-left: 35px;
+}
+
+.num {
+    padding: 20px 30px;
+}
+
+.num h2 {
+    font-size: 30px;
+    font-family: "Oswald", sans-serif;
+}
+
+.num h4 {
+    font-size: 15px;
+    font-family: "Roboto Mono", monospace;
+    padding-left: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.form-container {
+    background-color: #fff;
+    padding: 20px 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(247, 246, 246, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.form-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+    transition: 0.3s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #667eea;
+    box-shadow: 0 0 5px rgba(102, 126, 234, 0.5);
+}
+
+.btn {
+    background-color: #667eea;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    width: 100%;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background-color: #556cd6;
+}
+
+
+
+
+.footr {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/011/912/854/small/black-hexagonal-tire-pattern-background-industrial-geometric-polygonal-grid-textured-in-dark-brutal-monochrome-linear-minimalism-vector.jpg);
+}
+
+.footr h3 {
+    color: #fff;
+    font-size: 25px;
+    padding: 20px 30px;
+    font-family: "Oswald", sans-serif;
+}
+
+.footr img {
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+    /* background-color: black; */
+    padding-top: 70px;
+}
+
+
+.last {
+    text-align: center;
+    color: white;
+    padding: 120px 0px 0px 0px;
+
+
+}
+
+
+
+
+
+/* ========== MOBILE RESPONSIVE (max-width: 768px) ========== */
+@media (max-width: 855px) {
+
+
+    .nav .rightnav {
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+        /* display: none; */
+    }
+
+    .nav .rightnav a {
+        display: none;
+    }
+
+    .rightnav .menu {
+        display: contents;
+        color: #d1d7e0;
+    }
+
+    .logo img {
+        width: 200px;
+    }
+
+    .content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .content .l,
+    .content .r {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .r img {
+        height: 203px;
+        margin-right: 64px;
+        border-radius: 50%
+    }
+
+    .about {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .a,
+    .b {
+        width: 100%;
+        height: auto;
+        border-radius: 20px;
+        margin: 10px 0px;
+    }
+
+    .gal {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .courses {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        gap: 20px;
+        padding-bottom: 20px;
+    }
+
+    .firstcour,
+    .secondcour {
+        width: 90%;
+        height: auto;
+    }
+
+    .contact {
+        flex-direction: column;
+        height: auto;
+        gap: 20px;
+        padding-bottom: 20px;
+    }
+
+    .leftc,
+    .rightc {
+        width: 90%;
+    }
+
+    .footr {
+        height: auto;
+    }
+
+    .footr img {
+        height: auto;
+        padding-top: 20px;
+    }
+
+    .last {
+        padding: 40px 0px 20px 0px;
+    }
+
+    .content,
+    .content2,
+    .content3,
+    .content4,
+    .content5,
+    .footr {
+        height: auto;
+    }
+
+    .l h4 {
+        font-size: 15px;
+    }
+}
